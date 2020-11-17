@@ -1,0 +1,28 @@
+
+public class Senjata {// kelas induk 
+ 
+public void tembak(){
+ System.out.println("Door Dorrr Dorrr");
+ 
+} 
+}
+ 
+public class M16 extends Senjata { 
+/*extends = keyword inheritance , 
+ * bahwa kelas M16 adalah kelas anak dari kelas induk Senjata.
+ * 
+ */
+public void tembak (){
+ System.out.println("M16 = Trrrrrr Trrrrrrrrrr Trrrrr !!! "); 
+}
+}
+
+public class Bazhoka extends Senjata {
+public void tembak (){
+ System.out.println("Bazoka = Booooomm Bommmm Bomm !!!"); 
+} 
+}
+
+public class Pistol extends Senjata {
+	//tidak mendeklarasikan apa apa , penjelasan dan maksud di bawah.
+}
